@@ -314,7 +314,8 @@ ul {
   text-align: center;
 }
 
-.
+.list-flex {
+}
 
 /* ?\ FOOTER */
 .logotyp-footer {
@@ -377,12 +378,13 @@ ul {
   color: var(--color-secondary);
   text-decoration: none;
 }
-
 .text-port {
   margin-bottom: max;
 }
 .li-card {
   flex-basis: calc((100% - 48px) / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .link-port:hover,
@@ -391,6 +393,13 @@ ul {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.pading-card {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding: auto;
+}
 .padingcard {
   background: #ffffff;
   padding-left: 16px;
